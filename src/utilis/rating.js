@@ -1,0 +1,1 @@
+export  const rating = stars => `⭐⭐⭐⭐⭐`.slice(5 - stars);

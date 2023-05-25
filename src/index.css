@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply font-secondaryFont font-normal text-sm text-[#1a1a1a];
+	}
+<<<<<<< HEAD
+
+=======
+>>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-primaryFont font-normal;
+	}
+<<<<<<< HEAD
+
+	h2 {
+		@apply text-3xl font-semibold;
+	}
+
+	h3 {
+		@apply text-2xl font-semibold;
+	}
+
+	h4 {
+		@apply text-xl font-semibold;
+	}
+
+	label {
+		@apply block;
+	}
+
+	input {
+		@apply outline-none w-full border-borderColor border focus:outline-none px-5 py-3 rounded-sm;
+=======
+	h2 {
+		@apply text-3xl font-semibold;
+	}
+	h3 {
+		@apply text-2xl font-semibold;
+	}
+	h4 {
+		@apply text-xl font-semibold;
+	}
+	label {
+		@apply block;
+	}
+	input {
+		@apply outline-none w-full border-borderColor border focus:outline-none
+    px-5 py-3 rounded-sm;
+>>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
+	}
+}
+
+@layer components {
+	.container {
+		@apply mx-auto;
+	}
+<<<<<<< HEAD
+
+	.btn {
+		@apply font-normal text-sm font-secondaryFont px-5 py-[6px] rounded-sm transition flex items-center justify-center duration-300;
+	}
+
+	.btn-primary {
+		@apply bg-primaryColor border border-primaryColor text-white;
+	}
+
+	.btn-primary:hover {
+		@apply border border-primaryColor bg-transparent text-primaryColor;
+	}
+
+	.btn-primary-outline {
+		@apply border border-primaryColor rounded-[4px] text-primaryColor;
+	}
+
+=======
+	.btn {
+		@apply font-normal text-sm font-secondaryFont 
+   px-5 py-[6px] rounded-sm transition flex items-center justify-center duration-300;
+	}
+	.btn-primary {
+		@apply bg-primaryColor border border-primaryColor text-white;
+	}
+	.btn-primary:hover {
+		@apply border border-primaryColor  bg-transparent text-primaryColor;
+	}
+	.btn-primary-outline {
+		@apply border border-primaryColor rounded-[4px] text-primaryColor;
+	}
+>>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
+	.btn-primary-outline:hover {
+		@apply bg-primaryColor border border-primaryColor text-white;
+	}
+}
+
+.shadow_1 {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
+/* responsive container  */
+@media (min-width: 1024px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
+/* date range calender  */
+.rdrDefinedRangesWrapper {
+	display: none;
+}
+
+/* tooltip  */
+
+.__tooltip {
+	position: relative;
+}
+
+.__tooltip::before {
+	position: absolute;
+	content: "";
+	top: -6px;
+	left: 4px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 6.5px 6px 6.5px;
+	border-color: transparent transparent #ff4532 transparent;
+	transform: rotate(0deg);
+}
+
+.divider {
+<<<<<<< HEAD
+	background-color: rgb(223, 218, 218);
+=======
+	background-color: gray;
+>>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
+	height: 1px;
+	width: 100%;
+}
+
+/* carousel  */
+
+.swiper-button-next,
+.swiper-button-prev {
+	position: absolute;
+	top: 42%;
+	width: 40px;
+	height: 40px;
+	color: black;
+	background: rgb(245, 243, 243);
+	border-radius: 100%;
+	box-shadow: 1px 1px 2px 5px rgba(0, 0, 0, 0.01);
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
+.swiper-button-next::after,
+.swiper-button-prev::after {
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+	left: 0;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
