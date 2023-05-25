@@ -12,11 +12,7 @@ const ExploreCard = ({ data }) => {
 			modules={[Navigation]}
 			navigation
 			>
-<<<<<<< HEAD
-			{data?.map((properties, index) => (
-=======
 			{data.map((properties, index) => (
->>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
 				<SwiperSlide key={index}>
 					<div>
 						<img

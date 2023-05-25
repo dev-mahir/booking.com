@@ -10,8 +10,6 @@ const Footer = () => {
   )
 }
 
-<<<<<<< HEAD
+
 export default Footer
-=======
-export default Footer
->>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
+

@@ -5,7 +5,6 @@ import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
 import ExploreCard from "../components/Home/ExploreCard";
 
-
 const HomePage = () => {
 	const [data, setData] = useState([]);
 
@@ -18,9 +17,6 @@ const HomePage = () => {
 	useEffect(() => {
 		fetchData();
 	}, []);
-
-
-	//text me
 
 	return (
 		<>
@@ -44,4 +40,4 @@ const HomePage = () => {
 	);
 };
 
-export default HomePage
+export default HomePage;

@@ -45,10 +45,6 @@ const Header = ({ className }) => {
 						<i className="bx bx-menu text-3xl"></i>
 					</button>
 				</div>
-<<<<<<< HEAD
-				
-=======
->>>>>>> bed4b0ce0fade2f9a6f2ed96180500eb60e7e1c6
 			</div>
 		</header>
 	);
